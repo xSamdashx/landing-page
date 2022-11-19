@@ -161,7 +161,7 @@ header {
     width: 100%;
 }
 
-.homeBtn .start, .homeBtn .more {
+.homeBtn .start, .homeBtn .more, .portfolio .start {
     display: inline-block;
     margin-right: 16px;
     width: 200px;
@@ -270,8 +270,145 @@ header {
     margin-top: 40px;
 }
 
-
+.services, .meetOurTeam {
+    background: rgba(0, 153, 255, 0.04);
+    padding: 120px 80px;
+    text-align: center;
+    color: #333333;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
   
+  .meetOurTeam {
+    padding-bottom: 210px;
+  }
+
+  .services .servicesText h6, .meetOurTeam h6, .portfolioText h6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .services .servicesText h2, .meetOurTeam h2, .portfolioText h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 138%;
+  }
+
+  .meetText, .portfolioText {
+    width: 494px;
+    margin: 0 auto;
+  }
+
+  .meetItems, .portfolioItems {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 60px;
+  }
+
+  .mItem{
+    position: relative;
+  }
+
+  .meetItems .mItem img {
+    width: 308px;
+    border-radius: 5px;
+  }
+
+  .meetItems .mItem .mItemDesc .contact img{
+    width: 15px;
+    padding-right: 8px;
+  }
+
+  .meetItems .mItem .mItemDesc {
+    background: #FFFFFF;
+    position: absolute;
+    top: 80%;
+    left: 24px;
+    right: 24px;
+    height: 133px;
+    box-shadow: 0px 10px 20px rgba(164, 217, 253, 0.15);
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+
+  .meetItems .mItem .mItemDesc .contact {
+    padding-left: 8px;
+    padding-top: 8px;
+  }
+
+  .meetItems .mItem .mItemDesc .name {
+    padding-left: 8px;
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+  }
+
+  .meetItems .mItem .mItemDesc .position {
+    padding-left: 8px;
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #494949;
+  }
+
+  .realEstate{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.267);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    height: 575px;
+    border-radius: 5px;
+  }
+
+  .portfolioText{
+    text-align: center;
+  }
+  
+  .realText h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 133%;
+  }
+
+  .realText p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155%;
+  }
+
+  .realText{
+    margin-top: 20px;
+  }
+
+  .imgRead{
+    margin-top: 20px;
+    width: 5vw;
+  }
+  
+  .portfolio{
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btnPort{
+    align-self: center;
+    justify-self: center;
+    margin-top: 3vw;
+  }
   
   
   
